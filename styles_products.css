@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #3f2b2b;
+    background-color: #7eb109d5;
     color: #fff;
     padding: 10px 0;
 }
@@ -32,7 +32,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #613737;
+    background-color: #aa537e;
 }
 
 main .product-grid {
