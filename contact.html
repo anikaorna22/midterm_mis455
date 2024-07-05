@@ -21,15 +21,33 @@
 <main>
     <div class="contact-content">
         <h1>Contact Us</h1>
-        <p>If you have any questions, feel free to reach out to us.
+        <p>If you have any questions, feel free to reach out to us.</p>
+        <img src="contact image 3.png" alt="Contact Image 1">
+        <p>You can contact us through email, phone, or visit us at our office. We're here to assist you with anything you need.</p>
+        <img src="contact us01.jpeg" alt="Contact Image 2">
+    </div>
+    <div class="contact-form">
+        <h2>Get in Touch</h2>
+        <form action="submit_contact_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
 
-        </p>
-        <img src="contact us01.jpeg" alt="Contact Image 1">
-        <p>You can contact us through email, phone, or visit us at our office. We're here to assist you with anything you need.
-            email- anikaorna22@gmail.com
-        </p>
-            <img src="call us.jpeg" alt="Contact Image 2">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        <div class="contact-map">
+            <h2>Our Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.089893730216!2d-122.42067908536632!3d37.77992757975838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808c61294a3d%3A0x1a2c3c79b8a845d2!2sSan%20Francisco%20City%20Hall!5e0!3m2!1sen!2sus!4v1609456435520!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </main>
+    <footer>
+        <p>&copy; 2024 My Product. All rights reserved.</p>
+    </footer>
+    
 </body>
 </html>
